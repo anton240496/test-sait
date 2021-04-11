@@ -1,0 +1,197 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+
+}
+
+html, body {
+  height: 100%;
+
+}
+
+body{
+  width: 100%;
+  max-height: 100px;
+  color: #333;
+  background: rgb(229, 235, 237);
+  font-size: lem;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 135%
+}
+
+a{
+
+  text-decoration: none;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+
+}
+
+a:hover{
+
+  text-decoration: none;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+.clear{
+  clear: both;
+}
+
+
+header, footer{
+  width: 98%;
+  background-color: rgb(94, 99, 99);
+  float: left;
+  height: 30px;
+
+
+
+}
+
+header{
+  border-bottom: 2px solid silver;
+  padding: 1%;
+  font-size: 2em;
+  font-family: Comic Sans MS, sans-serif;
+  color: rgb(231, 246, 240);
+
+
+}
+
+#l{
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: -55px;
+
+}
+
+#l:before{
+   font-size: 1.5em;
+   content: ' \269D';
+}
+
+#sl{
+  margin-left: 12%;
+  font-family: times new roman;
+  font-size: 17px;
+}
+
+.menu a
+{
+  display: inline;
+  float:left;
+  background-color: rgb(89, 134, 147);
+ margin-left: 3%;
+  font-size: 18px;
+  font-family: Monotype Corsiva;
+  width: 10%;
+  text-indent: 4px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    min-width: 100px;
+    color:rgb(211, 238, 235);
+
+}
+
+.menu a:hover{
+  background-color: rgb(70, 59, 63);
+  color: rgb(125, 114, 131);
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .2);
+
+
+}
+
+#menub{
+  width: 50%;
+  top: 4%;
+  position: absolute;
+  margin-left: 17%;
+
+
+}
+
+#tel a{
+  margin-left: 80%;
+  color: rgb(229, 238, 235);
+  font-size: 2 em;
+
+}
+
+ #tel a:hover {
+   color: rgb(102, 177, 49);
+ }
+
+ #osn {
+   float: left;
+      width: 80%;
+      height: 650px;
+      background-color:rgb(204, 201, 214) ;
+      margin-left: 10%;
+      margin-top: 1%;
+      box-shadow:
+  0 1px 4px rgba(0, 0, 0, .3),
+  -2px 0 15px -15px rgba(0, 0, 0, .8),
+  2px 0 15px -15px rgba(0, 0, 0, .8),
+  0 0 15px rgba(0, 0, 0, .1) inset;
+ }
+
+ .foto{
+   float: left;
+   width: 21%;
+   height: 40%;
+   margin-top: 2%;
+   margin-left: 3.2%;
+   background-color: red;
+   box-sizing: border-box;
+ }
+
+ .foto img {
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+  padding: 1%;
+  border-top: 2px solid silver;
+  margin-top: 30px;
+  padding-bottom: 2%;
+}
+
+#adress a{
+  color: rgb(193, 194, 183);
+  margin-right: 3%;
+  font-size: 1.3em;
+   line-height: 1.3;
+   white-space: pre;
+   float: right;
+   text-indent: -10px;
+
+
+}
+
+#adress a:hover {
+  color: rgb(102, 177, 49);
+}
